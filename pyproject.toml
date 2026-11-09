@@ -51,3 +51,24 @@ dependencies = [
     "groq>=0.33.0",
     "xgboost>=3.1.1",
 ]
+
+[tool.pyrefly]
+preset = "off"
+search-path = [
+    "week1",
+    "week2",
+    "week3",
+    "week4",
+    "week5",
+    "week6",
+    "week7",
+    "week8",
+]
+
+[tool.pyright]
+typeCheckingMode = "off"
+
+[tool.mypy]
+ignore_errors = true
+
+
